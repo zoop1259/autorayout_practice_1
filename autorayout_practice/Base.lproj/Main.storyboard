@@ -52,7 +52,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jxb-Ei-zqn">
-                                <rect key="frame" x="50" y="328" width="314" height="146.5"/>
+                                <rect key="frame" x="50" y="328" width="314" height="207.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타이틀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tro-eC-Iao">
                                         <rect key="frame" x="8" y="8" width="45" height="21"/>
@@ -60,8 +60,9 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View자체의 아래쪽 컨스트레인트를 걸지 않아도 이 라벨의 오토레이아웃을 통해 아래쪽 컨스트레인트를 설정해주면 View 오토레이아웃의 오류가 사라지고 자연스럽게 줄에따라 View크기도 늘어난다. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APG-c7-vCx">
-                                        <rect key="frame" x="8" y="37" width="298" height="101.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APG-c7-vCx">
+                                        <rect key="frame" x="8" y="37" width="298" height="162.5"/>
+                                        <string key="text">View자체의 아래쪽 컨스트레인트를 걸지 않아도 이 라벨의 오토레이아웃을 통해 아래쪽 컨스트레인트를 설정해주면 View 오토레이아웃의 오류가 사라지고 자연스럽게 줄에따라 View크기도 늘어난다.  View자체 높이 설정 후 Less then Equal을 설정 후 Constant를 제한하면 뷰의 최대크기를 제한 할 수 있다.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -80,8 +81,28 @@
                                     <constraint firstAttribute="trailing" secondItem="APG-c7-vCx" secondAttribute="trailing" constant="8" id="ycK-pD-JzY"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-og-uxJ">
+                                <rect key="frame" x="50" y="712" width="314" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="잘못된 오토레이아웃2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDT-Rs-Hal">
+                                        <rect key="frame" x="8" y="8" width="147" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이 오류는 타이틀의 컨스트레인트를 맞추지않아 발생" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2q1-1V-kvC">
+                                        <rect key="frame" x="8" y="37" width="346" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-l3-X76">
-                                <rect key="frame" x="50" y="498" width="314" height="128"/>
+                                <rect key="frame" x="50" y="559" width="314" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="잘못된 오토레이아웃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eI-Tt-mBc">
                                         <rect key="frame" x="8" y="8" width="137" height="21"/>
@@ -104,26 +125,6 @@
                                     <constraint firstItem="sOD-Hr-DBZ" firstAttribute="top" secondItem="6eI-Tt-mBc" secondAttribute="bottom" constant="8" id="Oap-L5-faX"/>
                                     <constraint firstItem="6eI-Tt-mBc" firstAttribute="top" secondItem="W0G-l3-X76" secondAttribute="top" constant="8" id="znu-Z0-AeQ"/>
                                 </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-og-uxJ">
-                                <rect key="frame" x="50" y="659" width="314" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="잘못된 오토레이아웃2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDT-Rs-Hal">
-                                        <rect key="frame" x="8" y="8" width="147" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이 오류는 타이틀의 컨스트레인트를 맞추지않아 발생" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2q1-1V-kvC">
-                                        <rect key="frame" x="8" y="37" width="346" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -155,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="55.580357142857139"/>
+            <point key="canvasLocation" x="-309" y="58"/>
         </scene>
     </scenes>
     <resources>
