@@ -52,7 +52,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jxb-Ei-zqn">
-                                <rect key="frame" x="50" y="328" width="314" height="207.5"/>
+                                <rect key="frame" x="50" y="328" width="314" height="228"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타이틀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tro-eC-Iao">
                                         <rect key="frame" x="8" y="8" width="45" height="21"/>
@@ -61,8 +61,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APG-c7-vCx">
-                                        <rect key="frame" x="8" y="37" width="298" height="162.5"/>
-                                        <string key="text">View자체의 아래쪽 컨스트레인트를 걸지 않아도 이 라벨의 오토레이아웃을 통해 아래쪽 컨스트레인트를 설정해주면 View 오토레이아웃의 오류가 사라지고 자연스럽게 줄에따라 View크기도 늘어난다.  View자체 높이 설정 후 Less then Equal을 설정 후 Constant를 제한하면 뷰의 최대크기를 제한 할 수 있다.</string>
+                                        <rect key="frame" x="8" y="37" width="298" height="183"/>
+                                        <string key="text">View자체의 아래쪽 컨스트레인트를 걸지 않아도 이 라벨의 오토레이아웃을 통해 아래쪽 컨스트레인트를 설정해주면 View 오토레이아웃의 오류가 사라지고 자연스럽게 줄에따라 View크기도 늘어난다. 그러나 이렇게하면 작은 화면의 아이폰은 화면이 오버된다. View자체 높이 설정 후 Less then Equal을 설정 후 Constant를 제한하면 뷰의 최대크기를 제한 할 수 있다.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
