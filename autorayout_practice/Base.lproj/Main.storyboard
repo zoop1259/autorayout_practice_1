@@ -71,6 +71,7 @@
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstItem="Tro-eC-Iao" firstAttribute="top" secondItem="jxb-Ei-zqn" secondAttribute="top" constant="8" id="0de-5Z-18b"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="230" id="7Yl-bQ-4Ja"/>
                                     <constraint firstItem="APG-c7-vCx" firstAttribute="top" secondItem="Tro-eC-Iao" secondAttribute="bottom" constant="8" id="86x-On-gHc"/>
                                     <constraint firstItem="APG-c7-vCx" firstAttribute="leading" secondItem="jxb-Ei-zqn" secondAttribute="leading" constant="8" id="8qc-zP-qeC"/>
                                     <constraint firstAttribute="trailing" secondItem="APG-c7-vCx" secondAttribute="trailing" constant="8" id="Frw-wu-sSz"/>
@@ -81,76 +82,25 @@
                                     <constraint firstAttribute="trailing" secondItem="APG-c7-vCx" secondAttribute="trailing" constant="8" id="ycK-pD-JzY"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-og-uxJ">
-                                <rect key="frame" x="50" y="712" width="314" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="잘못된 오토레이아웃2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDT-Rs-Hal">
-                                        <rect key="frame" x="8" y="8" width="147" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이 오류는 타이틀의 컨스트레인트를 맞추지않아 발생" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2q1-1V-kvC">
-                                        <rect key="frame" x="8" y="37" width="346" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-l3-X76">
-                                <rect key="frame" x="50" y="559" width="314" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="잘못된 오토레이아웃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eI-Tt-mBc">
-                                        <rect key="frame" x="8" y="8" width="137" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이 오류는 이 라벨의 아래쪽 컨스트레인트를 설정하지 않았기 떄문에 뷰를 관통하여 글이 써지는 것.류오류오류오류오류오류오류오류오류오류오류오류오류오류오류오류오류오류오류오류" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOD-Hr-DBZ">
-                                        <rect key="frame" x="8" y="37" width="298" height="101.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
-                                <constraints>
-                                    <constraint firstItem="sOD-Hr-DBZ" firstAttribute="leading" secondItem="W0G-l3-X76" secondAttribute="leading" constant="8" id="8x4-0w-GNU"/>
-                                    <constraint firstItem="6eI-Tt-mBc" firstAttribute="leading" secondItem="W0G-l3-X76" secondAttribute="leading" constant="8" id="JfD-0p-2Av"/>
-                                    <constraint firstAttribute="trailing" secondItem="sOD-Hr-DBZ" secondAttribute="trailing" constant="8" id="O2S-ev-FMB"/>
-                                    <constraint firstItem="sOD-Hr-DBZ" firstAttribute="top" secondItem="6eI-Tt-mBc" secondAttribute="bottom" constant="8" id="Oap-L5-faX"/>
-                                    <constraint firstItem="6eI-Tt-mBc" firstAttribute="top" secondItem="W0G-l3-X76" secondAttribute="top" constant="8" id="znu-Z0-AeQ"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OU0-Pq-I7f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="1g5-4A-viN"/>
                             <constraint firstItem="XvG-7M-5oE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="1ge-TI-N0M"/>
-                            <constraint firstItem="Nd4-og-uxJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="2ZF-lv-agi"/>
                             <constraint firstItem="Ybf-hf-uUi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="4ly-jm-vCt"/>
                             <constraint firstItem="Ybf-hf-uUi" firstAttribute="top" secondItem="OU0-Pq-I7f" secondAttribute="bottom" constant="24" id="4zr-7S-2cK"/>
                             <constraint firstItem="6pI-3I-FPH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="C0M-eZ-s5W"/>
                             <constraint firstItem="Ws5-Vq-E69" firstAttribute="top" secondItem="6pI-3I-FPH" secondAttribute="bottom" constant="14" id="J5t-WV-UFh"/>
                             <constraint firstItem="jxb-Ei-zqn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Mgh-Om-as9"/>
                             <constraint firstItem="6pI-3I-FPH" firstAttribute="leading" secondItem="OU0-Pq-I7f" secondAttribute="trailing" constant="8" symbolic="YES" id="SLG-96-Z8V"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W0G-l3-X76" secondAttribute="trailing" constant="50" id="V9P-0J-Pc3"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XvG-7M-5oE" secondAttribute="trailing" constant="50" id="Vfo-Nn-ibz"/>
                             <constraint firstItem="Ws5-Vq-E69" firstAttribute="leading" secondItem="OU0-Pq-I7f" secondAttribute="trailing" constant="15" id="Voo-vd-QZK"/>
                             <constraint firstItem="XvG-7M-5oE" firstAttribute="top" secondItem="Ybf-hf-uUi" secondAttribute="bottom" constant="20" id="XMI-wh-znb"/>
-                            <constraint firstItem="Nd4-og-uxJ" firstAttribute="top" secondItem="W0G-l3-X76" secondAttribute="bottom" constant="33" id="apH-G8-yLX"/>
                             <constraint firstItem="jxb-Ei-zqn" firstAttribute="top" secondItem="XvG-7M-5oE" secondAttribute="bottom" constant="28" id="eWC-jU-Lbs"/>
                             <constraint firstItem="OU0-Pq-I7f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="hGC-u2-fuS"/>
-                            <constraint firstItem="W0G-l3-X76" firstAttribute="top" secondItem="jxb-Ei-zqn" secondAttribute="bottom" constant="23.5" id="iaz-Xo-BJP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ybf-hf-uUi" secondAttribute="trailing" constant="50" id="lgv-Dk-fdL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jxb-Ei-zqn" secondAttribute="trailing" constant="50" id="pjo-0W-IRU"/>
-                            <constraint firstItem="W0G-l3-X76" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="uUW-Vg-JcE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nd4-og-uxJ" secondAttribute="trailing" constant="50" id="vgs-ap-z0v"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -168,14 +118,8 @@
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
